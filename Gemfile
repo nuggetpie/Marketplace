@@ -1,6 +1,15 @@
 source 'https://rubygems.org'
 
-
+gem 'stripe'
+gem 'devise'
+gem 'cancan'
+gem 'paperclip'
+gem 'dotenv-rails', group: :development
+gem 'aws-sdk'
+gem 'friendly_id'
+gem 'simple_form'
+gem "font-awesome-rails"
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record

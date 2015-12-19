@@ -1,0 +1,5 @@
+<div class="row text-center">
+<h1>Thank you for the purchase <%= @sale.guid %>!</h1>
+<p>Below is your link to download your book:</p>
+<%= link_to "Click here to download", @book.resource.url %>
+</div>
